@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: #aee5cc;
+    font-family: "Coda", cursive;
+  }
+
+  .cats {
+      max-width: 700px;
+      margin: 30px auto;
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  .cats__01 {
+    flex: 1 1;
+    padding: 3rem;
+
+  }
+
+  .cats__02 {
+    flex: 1 1;
+    padding: 3rem;
+
+  }
+
+  .cat__picture1 {
+    width: 120%;
+    margin: 0 auto;
+    padding: 2rem 3rem 0 3rem;
+    position: relative;
+  }
+
+  .cat__picture2 {
+    fill: orange; 
+    width: 120%;
+    margin: 0 auto;
+    padding: 2rem 3rem 0 3rem;
+    position: relative;
+  }
+
+
+  .cat__header {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .cat__counter {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+  
+  
